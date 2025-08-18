@@ -1,11 +1,7 @@
 {
-  "builds": [
-    {
-      "src": "**/*.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
+  "rewrites": [
+    { "source": "/soil-testing", "destination": "/soil-testing.html" },
+    { "source": "/asphalt-testing", "destination": "/asphalt-testing.html" },
+    { "source": "/(.*)", "destination": "/$1" }
   ]
 }
