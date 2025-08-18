@@ -1,7 +1,7 @@
 {
-  "routes": [
-    { "src": "/soil-testing", "dest": "/soil-testing.html" },
-    { "src": "/asphalt-testing", "dest": "/asphalt-testing.html" },
-    { "src": "/concrete-aggregate-testing", "dest": "/concrete-aggregate-testing.html" }
+  "rewrites": [
+    { "source": "/soil-testing", "destination": "/soil-testing.html" },
+    { "source": "/asphalt-testing", "destination": "/asphalt-testing.html" },
+    { "source": "/:path*", "destination": "/:path*" }
   ]
 }
