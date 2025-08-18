@@ -1,7 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/soil-testing", "destination": "/soil-testing.html" },
-    { "source": "/asphalt-testing", "destination": "/asphalt-testing.html" },
-    { "source": "/:path*", "destination": "/:path*" }
-  ]
+  "public": "public"
 }
