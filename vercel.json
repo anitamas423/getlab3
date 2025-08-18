@@ -1,8 +1,1 @@
-{
-  "rewrites": [
-    { "source": "/soil-testing", "destination": "/soil-testing.html" },
-    { "source": "/asphalt-testing", "destination": "/asphalt-testing.html" },
-    { "source": "/chemical-testing", "destination": "/chemical-testing.html" },
-    { "source": "/concrete-aggregate-testing", "destination": "/concrete-aggregate--testing.html" },
-  ]
-}
+{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
