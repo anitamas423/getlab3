@@ -1,3 +1,7 @@
 {
-  "cleanUrls": true
+  "routes": [
+    { "src": "/soil-testing", "dest": "/soil-testing.html" },
+    { "src": "/asphalt-testing", "dest": "/asphalt-testing.html" },
+    { "src": "/concrete-aggregate-testing", "dest": "/concrete-aggregate-testing.html" }
+  ]
 }
