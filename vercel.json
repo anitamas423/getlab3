@@ -1,9 +1,9 @@
 {
   "rewrites": [
     { "source": "/services/soil-testing", "destination": "/services/soil-testing.html" },
-    { "source": "/services/asphalt-testing", "destination": "/services/asphalt-testing.html" }
+    { "source": "/services/asphalt-testing", "destination": "/services/asphalt-testing.html" },
     { "source": "/services/concrete-aggregate-testing", "destination": "/services/concrete-aggregate-testing.html" },
-    { "source": "/services/chemical-testing", "destination": "/services/chemical-testing.html" }
+    { "source": "/services/chemical-testing", "destination": "/services/chemical-testing.html" },
     { "source": "/services/geotechnical-investigations", "destination": "/services/geotechnical-investigations.html" },
     { "source": "/services/geophysical-investigations", "destination": "/services/geophysical-investigations.html" }
   ]
